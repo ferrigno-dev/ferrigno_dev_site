@@ -1,0 +1,54 @@
+/*@include font-face(Poppins, '~/assets/fonts/poppins/Poppins-Regular', 400, normal, ttf);*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5 {
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+article h1 {
+    font-size: 1.5rem !important;
+    line-height: 2rem !important;
+}
+
+article h3 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+article h3 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+article img {
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article ul {
+    list-style: disc;
+    margin: 20px;
+}
+
+article li {
+    margin-bottom: 10px;
+}
+
+bg-regal-green {
+    background-color: #086972;
+}
